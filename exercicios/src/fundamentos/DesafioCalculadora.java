@@ -23,6 +23,7 @@ public class DesafioCalculadora {
 		System.out.println("Qual operacao voce deseja? [+ - * / %]");
 		operador = entrada.nextLine();
 		
+		//Esse conceito é bom
 		resultado = "+".equals(operador) ? num1 + num2 : resultado;
 		resultado = "-".equals(operador) ? num1 - num2 : resultado;
 		resultado = "*".equals(operador) ? num1 * num2 : resultado;
