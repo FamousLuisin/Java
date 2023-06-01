@@ -24,5 +24,7 @@ public class DesafioWhile {
 		
 		System.out.println("Media do aluno: " + soma / numeroNotas);
 		
+		entrada.close();
+		
 	}
 }

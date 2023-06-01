@@ -12,6 +12,8 @@ public class Exercicio05 {
 		System.out.println("Digite um numero: ");
 		int numero = entrada.nextInt();
 		
+		entrada.close();
+		
 		for (divisor = 1; divisor <= numero; divisor++) {
 			if (numero % divisor == 0) {
 				contador += 1;
@@ -27,6 +29,5 @@ public class Exercicio05 {
 				break;
 		}
 		
-		entrada.close();
 	}
 }
