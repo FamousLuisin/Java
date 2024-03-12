@@ -1,3 +1,6 @@
+#vscode
+.vscode
+
 # Compiled class file
 *.class
 
@@ -86,6 +89,6 @@ local.properties
 # Typically, this file would be tracked if it contains build/dependency configurations:
 #.project
 
+#eclipse
 .classpath
-
 .project
