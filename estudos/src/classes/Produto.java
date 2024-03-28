@@ -4,17 +4,19 @@ public class Produto {
 
 	String nome;
 	double preco;
-	double desconto;
+	static double desconto = 0.25;
 	
-	Produto(String nomeInicial, double precoInicial, double descontoInicial){
+	// Construtor
+	Produto(String nomeInicial, double precoInicial){
 		nome = nomeInicial;
 		preco = precoInicial;
-		desconto = descontoInicial;
 	}
 	
+	// Construtor base
 	Produto() {
 	}
 	
+	// métodos
 	double precoComDesconto() {
 		double novoPreco = preco * (1 - desconto);
 		return novoPreco;
