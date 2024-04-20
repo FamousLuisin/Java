@@ -1,4 +1,4 @@
-package concorrente_distribuida.Threads1;
+package concorrente_distribuida.estudos_base.threads01;
 
 public class Ola extends Thread{
 	@Override

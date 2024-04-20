@@ -1,4 +1,4 @@
-package concorrente_distribuida.Threads4;
+package concorrente_distribuida.estudos_base.threads04;
 
 public class SomaPrimos extends Thread{
 	

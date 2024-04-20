@@ -1,4 +1,4 @@
-package concorrente_distribuida.Threads5;
+package concorrente_distribuida.estudos_base.threads05;
 
 public class Incrementer extends Thread {
 	private Counter counter;

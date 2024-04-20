@@ -1,4 +1,4 @@
-package concorrente_distribuida.Threads3;
+package concorrente_distribuida.estudos_base.threads03;
 
 public class MaxFinder extends Thread{
 	private int[] array;

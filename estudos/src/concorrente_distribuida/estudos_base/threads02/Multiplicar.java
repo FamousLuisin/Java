@@ -1,4 +1,4 @@
-package concorrente_distribuida.Threads2;
+package concorrente_distribuida.estudos_base.threads02;
 
 public class Multiplicar extends Thread{
 	double a;
