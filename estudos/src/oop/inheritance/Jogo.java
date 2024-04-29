@@ -7,9 +7,7 @@ public class Jogo {
 		mosntro.x = 10;
 		mosntro.y = 20;
 		
-		Heroi heroi = new Heroi();
-		heroi.x = 10;
-		heroi.y = 19;	
+		Heroi heroi = new Heroi(10, 19);	
 		
 		System.out.println("mosntro vida: " + mosntro.vida);
 		System.out.println("heroi vida: " + heroi.vida);

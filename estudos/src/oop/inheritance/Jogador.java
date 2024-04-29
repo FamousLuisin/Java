@@ -6,6 +6,17 @@ public class Jogador {
 	int y;
 	int vida = 100;
 	
+	// Construtor padrão
+	Jogador(){
+		this(0, 0);
+	}
+	
+	// Construtor novo
+	Jogador(int x, int y){
+		this.x = x;
+		this.y = y;
+	}
+	
 	boolean atacar(Jogador oponente) {
 		int deltaX = Math.abs(this.x - oponente.x);
 		int deltaY = Math.abs(this.y - oponente.y);
