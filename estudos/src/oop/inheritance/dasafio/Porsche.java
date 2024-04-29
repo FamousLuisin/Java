@@ -2,7 +2,7 @@ package oop.inheritance.dasafio;
 
 public class Porsche extends Carro {
 	
-	Porsche(){
+	public Porsche(){
 		super(300);
 		// Alterar valor de delta
 		super.delta = 50;
@@ -12,7 +12,7 @@ public class Porsche extends Carro {
 	// Nesse caso não é preciso nem sobreescrever a função acelerar
 	
 	@Override
-	void acelerar() {
+	public void acelerar() {
 		super.acelerar();
 	}
 }

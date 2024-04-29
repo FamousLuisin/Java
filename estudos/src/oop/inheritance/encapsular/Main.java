@@ -1,4 +1,7 @@
-package oop.inheritance.dasafio;
+package oop.inheritance.encapsular;
+
+import oop.inheritance.dasafio.Mustang;
+import oop.inheritance.dasafio.Porsche;
 
 public class Main {
 

@@ -2,9 +2,9 @@ package oop.inheritance;
 
 public class Jogador {
 
-	int x;
-	int y;
-	int vida = 100;
+	protected int x;
+	protected int y;
+	public int vida = 100;
 	
 	// Construtor padrão
 	Jogador(){
@@ -17,7 +17,7 @@ public class Jogador {
 		this.y = y;
 	}
 	
-	boolean atacar(Jogador oponente) {
+	public boolean atacar(Jogador oponente) {
 		int deltaX = Math.abs(this.x - oponente.x);
 		int deltaY = Math.abs(this.y - oponente.y);
 		int dano = 10;
@@ -33,7 +33,7 @@ public class Jogador {
 		return false;
 	}
 	
-	boolean andar(Direction direction) {
+	public boolean andar(Direction direction) {
 		
 		switch (direction) {
 		case NORTE: 
