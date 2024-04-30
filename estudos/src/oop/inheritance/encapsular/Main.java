@@ -10,6 +10,7 @@ public class Main {
 		System.out.println("======Porsche======");
 		Porsche p1 = new Porsche();
 		System.out.println("Inicial: " + p1.velocidade);
+		p1.ligarTurbo();
 		p1.acelerar();
 		p1.acelerar();
 		p1.acelerar();
