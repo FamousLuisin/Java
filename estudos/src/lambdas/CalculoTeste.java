@@ -9,7 +9,7 @@ public class CalculoTeste {
 		System.out.println("Tradicional: " + soma.executar(5, 5));
 		System.out.println("Tradicional: " + multiplica.executar(5, 5));
 		
-		System.out.println("===================");
+		System.out.println("========== lambdas ==========");
 		
 		// Função lambda
 		Calculo calc = (x, y) -> {
@@ -20,5 +20,9 @@ public class CalculoTeste {
 		// Função lambda reduzida (Já está havendo um return)
 		calc = (x, y) -> x * y;
 		System.out.println("Lambda: " + calc.executar(5, 5));
+		
+		System.out.println("========== Métodos não abstratos ==========");
+		System.out.println(calc.func());
+		System.out.println(Calculo.inter());
 	}
 }
