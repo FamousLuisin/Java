@@ -12,4 +12,8 @@ public class Produto {
 		this.desconto = desconto;
 	}
 	
+	public String toString() {
+		return "Nome: " + nome + " | preço: " + preco;
+	}
+	
 }
