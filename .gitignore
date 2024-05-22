@@ -92,6 +92,7 @@ local.properties
 # eclipse
 .classpath
 .project
+libs/
 
 # properties
 conexao.properties
