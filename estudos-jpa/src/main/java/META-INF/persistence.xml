@@ -15,6 +15,10 @@
 		<class>modelo.umpraum.Cliente</class>
 		<!-- Tabela Assento -->
 		<class>modelo.umpraum.Assento</class>
+		<!-- Tabela Pedido -->
+		<class>modelo.umpramuitos.Pedido</class>
+		<!-- Tabela ItemPedido -->
+		<class>modelo.umpramuitos.ItemPedido</class>
         
         <properties>
         	<!-- Propriedades do jdbc -->
