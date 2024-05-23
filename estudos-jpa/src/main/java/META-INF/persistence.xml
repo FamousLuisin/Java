@@ -9,6 +9,8 @@
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<!-- Tabela Usuario -->
 		<class>modelo.basico.Usuario</class>
+		<!-- Tabela Produto -->
+		<class>modelo.basico.Produto</class>
         
         <properties>
         	<!-- Propriedades do jdbc -->
