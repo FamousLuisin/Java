@@ -19,6 +19,10 @@
 		<class>modelo.umpramuitos.Pedido</class>
 		<!-- Tabela ItemPedido -->
 		<class>modelo.umpramuitos.ItemPedido</class>
+		<!-- Tabela Sobrinho -->
+		<class>modelo.muitospramuitos.Sobrinho</class>
+		<!-- Tabela Tio -->
+		<class>modelo.muitospramuitos.Tio</class>
         
         <properties>
         	<!-- Propriedades do jdbc -->
