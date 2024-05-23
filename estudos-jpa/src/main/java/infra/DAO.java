@@ -73,6 +73,12 @@ public class DAO<E> {
 		return obterTodos(10, 0);
 	}
 	
+	// Método para obeter por Id
+	public E obterPorId(Object id) {
+		return manager.find(classe, id);
+	}
+	
+	// Método para fechar o manager
 	public void fechar() {
 		manager.close();
 	}
