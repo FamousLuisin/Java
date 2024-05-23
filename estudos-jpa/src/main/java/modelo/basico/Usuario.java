@@ -1,14 +1,18 @@
 package modelo.basico;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 // Essa classe esta mapeada para uma tabela do bd
 @Entity
 public class Usuario {
 
-	// Vinculando o Id da tabela -> Primary Key
+	// @Id = Vinculando o Id da tabela -> Primary Key
+	// @GeneratedValue = gerar um novo valor de Id
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String nome;
 	private String email;
