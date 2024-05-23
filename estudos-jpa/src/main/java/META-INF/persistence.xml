@@ -11,6 +11,10 @@
 		<class>modelo.basico.Usuario</class>
 		<!-- Tabela Produto -->
 		<class>modelo.basico.Produto</class>
+		<!-- Tabela Cliente -->
+		<class>modelo.umpraum.Cliente</class>
+		<!-- Tabela Assento -->
+		<class>modelo.umpraum.Assento</class>
         
         <properties>
         	<!-- Propriedades do jdbc -->
