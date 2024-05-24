@@ -1,5 +1,6 @@
 package infra;
 
+import java.util.Iterator;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -76,6 +77,16 @@ public class DAO<E> {
 	// Método para obeter por Id
 	public E obterPorId(Object id) {
 		return manager.find(classe, id);
+	}
+	
+	public List<E> consultar(String nomeConsulta, Object... params){
+		TypedQuery<E> query = manager.createNamedQuery(nomeConsulta, classe);
+		
+		for (int i = 0; i < params.length; i+=2) {
+			query.setParameter(params[i].toString(), params[i + 1]);
+		}
+		
+		return query.getResultList();
 	}
 	
 	// Método para fechar o manager
