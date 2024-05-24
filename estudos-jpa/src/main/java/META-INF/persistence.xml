@@ -30,6 +30,12 @@
 		<class>modelo.muitospramuitos.Ator</class>
 		<!-- Tabela Filme -->
 		<class>modelo.muitospramuitos.Filme</class>
+		<!-- Tabela Fornecedor -->
+		<class>modelo.composicao.Fornecedor</class>
+		<!-- Tabela Funcionario -->
+		<class>modelo.composicao.Funcionario</class>
+		<!-- Tabela Embeddable Endereço -->
+		<class>modelo.composicao.Endereco</class>
         
         <properties>
         	<!-- Propriedades do jdbc -->
