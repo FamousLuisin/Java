@@ -14,28 +14,37 @@
 		<class>modelo.basico.Usuario</class>
 		<!-- Tabela Produto -->
 		<class>modelo.basico.Produto</class>
+		
 		<!-- Tabela Cliente -->
 		<class>modelo.umpraum.Cliente</class>
 		<!-- Tabela Assento -->
 		<class>modelo.umpraum.Assento</class>
+		
 		<!-- Tabela Pedido -->
 		<class>modelo.umpramuitos.Pedido</class>
 		<!-- Tabela ItemPedido -->
 		<class>modelo.umpramuitos.ItemPedido</class>
+		
 		<!-- Tabela Sobrinho -->
 		<class>modelo.muitospramuitos.Sobrinho</class>
 		<!-- Tabela Tio -->
 		<class>modelo.muitospramuitos.Tio</class>
+		
 		<!-- Tabela Ator -->
 		<class>modelo.muitospramuitos.Ator</class>
 		<!-- Tabela Filme -->
 		<class>modelo.muitospramuitos.Filme</class>
+		
 		<!-- Tabela Fornecedor -->
 		<class>modelo.composicao.Fornecedor</class>
 		<!-- Tabela Funcionario -->
 		<class>modelo.composicao.Funcionario</class>
 		<!-- Tabela Embeddable Endereço -->
 		<class>modelo.composicao.Endereco</class>
+		
+		<!-- Tabela Aluno -->
+		<class>modelo.heranca.Aluno</class>
+		<class>modelo.heranca.AlunoBolsista</class>
         
         <properties>
         	<!-- Propriedades do jdbc -->
