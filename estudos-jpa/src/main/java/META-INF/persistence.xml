@@ -23,6 +23,10 @@
 		<class>modelo.muitospramuitos.Sobrinho</class>
 		<!-- Tabela Tio -->
 		<class>modelo.muitospramuitos.Tio</class>
+		<!-- Tabela Ator -->
+		<class>modelo.muitospramuitos.Ator</class>
+		<!-- Tabela Filme -->
+		<class>modelo.muitospramuitos.Filme</class>
         
         <properties>
         	<!-- Propriedades do jdbc -->
