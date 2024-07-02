@@ -100,3 +100,8 @@ conexao.properties
 # biuld (JPA)
 /build/
 build/
+
+# IJ
+.idea
+out/
+*.iml
